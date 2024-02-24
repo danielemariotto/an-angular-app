@@ -1,0 +1,7 @@
+<p><mat-slide-toggle (toggleChange)="toggleChange">Toggle me!</mat-slide-toggle></p>
+<p><button mat-raised-button color="primary" [disabled]="buttonDisable" (click)="buttonClick()">Click</button></p>
+<p>{{saluto}}</p>
+<mat-form-field class="example-full-width">
+    <mat-label>Leave a comment</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..." [(ngModel)]="saluto"></textarea>
+</mat-form-field>
